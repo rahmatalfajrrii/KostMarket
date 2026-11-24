@@ -402,6 +402,24 @@
 
                 <span class="menu-link">Kelola Pembayaran →</span>
 
+                
+            <!-- REVIEWS -->
+            <a href="{{ route('reviews.index') }}" class="menu-card">
+
+                <div class="menu-icon" style="background: #fef3c7;">⭐</div>
+
+                <h3>Data Ulasan</h3>
+
+                <p>
+                    Kelola ulasan dan penilaian pelanggan terhadap
+                    kamar kost, termasuk rating dan komentar.
+                </p>
+
+                <span class="menu-link">Kelola Ulasan →</span>
+
+            </a>
+
+
             </a>
 
         </div>

@@ -8,6 +8,7 @@ use App\Http\Controllers\FasilitasController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\PemesananController;
 use App\Http\Controllers\PembayaranController;
+use App\Http\Controllers\ReviewController;
 
 Route::get('/', function () {
     return redirect('/login');
@@ -32,4 +33,6 @@ Route::middleware('auth')->group(function () {
     Route::resource('users', UserController::class);
     Route::resource('pemesanans', PemesananController::class);
     Route::resource('pembayarans', PembayaranController::class);
+
+    Route::resource('reviews', ReviewController::class);
 });
